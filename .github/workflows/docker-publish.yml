@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ms.productos:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ms.productos:1.0
